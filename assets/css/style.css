@@ -85,14 +85,50 @@ header nav ul li a {
 }
 
 .about h2 {
-    border-right: 2px solid #00314c;
+    border-right: 4px solid #00314c;
     font-size: 36px;
     color:#00314c;
     padding-right: 15px;
 }
 
 .about-text {
-    padding-left: 15px;
+    padding-left: 45px;
     color: #00314c;
     font-size: 18px;
+}
+
+.work-content {
+    margin: 30px auto;
+    width: 80%;
+    display: flex;
+}
+
+.work-content h2 {
+    border-right: 4px solid #00314c;
+    font-size: 36px;
+    color:#00314c;
+    padding-right: 32px;
+}
+
+.links {
+    padding-left: 45px;
+}
+
+.links img {
+    opacity: 0.3;
+}
+
+.links img:hover {
+    opacity: 0.8;
+}
+
+.run-buddy img {
+    height: auto;
+    width: 100%;
+    border: 5px solid paleturquoise;
+    position: relative;
+}
+
+.run-buddy h3 {
+    position: absolute;
 }
