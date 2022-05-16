@@ -77,3 +77,22 @@ header nav ul li a {
     bottom: 20px;
     right: 40px;
 }
+
+.about {
+    margin: 30px auto;
+    width: 80%;
+    display: flex;
+}
+
+.about h2 {
+    border-right: 2px solid #00314c;
+    font-size: 36px;
+    color:#00314c;
+    padding-right: 15px;
+}
+
+.about-text {
+    padding-left: 15px;
+    color: #00314c;
+    font-size: 18px;
+}
