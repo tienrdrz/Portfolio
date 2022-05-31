@@ -81,16 +81,10 @@ header nav ul li a {
 .about {
     margin: 30px auto;
     width: 80%;
-    display: flex;
+    display: inline;
 }
 
-.about h2 {
-    border-right: 4px solid #00314c;
-    font-size: 36px;
-    color:#00314c;
-    padding-right: 15px;
-    text-align: right;
-}
+
 
 .about-text {
     padding-left: 45px;
@@ -104,15 +98,42 @@ header nav ul li a {
     display: flex;
 }
 
-.work-content h2 {
+.run-buddy img {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 30px auto;
+    height: auto;
+    max-width: 100%;
+    opacity: 0.5;
+    border: 5px solid paleturquoise;
+}
+
+.run-buddy img:hover {
+    opacity: 1;
+}
+
+.other-work img {
+    display: inline;
+    margin: 5px auto;
+    height: 600px;
+    max-width: 49%;
+    border: 5px solid paleturquoise;
+    opacity: 0.5;
+}
+
+.other-work img:hover {
+    opacity: 1;
+}
+
+/* .work-content h2 {
     border-right: 4px solid #00314c;
     font-size: 36px;
     color:#00314c;
     padding-right: 32px;
     text-align: right;
-}
+} */
 
-.run-buddy {
+/* .run-buddy {
     padding-left: 45px;
     display: flex;
     flex-wrap: wrap;
@@ -130,25 +151,12 @@ header nav ul li a {
 
 .run-buddy img:hover {
     opacity: 0.9;
-}
+} */
 
-footer {
-    bottom: 0;
-    width: 80%;
-    margin: 30px 80px;
-}
-
-footer h2 {
-    color: #00314c;
-    font-size: 36px;
-    border-right: 4px solid #00314c;
-    text-align: right;
-    padding-right: 20px;
-    float: left;
-}
-
+/* */
 footer nav {
     margin: auto;
+    width: 100%;
 }
 
 footer nav ul {
@@ -158,15 +166,26 @@ footer nav ul {
 
 footer nav ul li {
     display: inline;
+    margin: 2%;
   }
 
 footer nav ul li a {
-    margin: 0 10px;
-    padding: 5px 10px;
+    margin: 0 5px;
+    padding: 5px 5px;
     font-weight: lighter;
-    font-size: 16px;
+    font-size: 20px;
     text-align: center;
     text-decoration: underline;
     color: #00314c;
 }
+ 
+.section-title {
+    border-bottom: 3px solid #00314c;
+    font-size: 30px;
+    color:#00314c;
+    padding-bottom: 15px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 30%;
+} 
 
